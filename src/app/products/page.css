@@ -1,0 +1,104 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+.product-items {
+  width: 168.75px;
+  height: 277px;
+  top: 309px;
+  left: 0.13px;
+  gap: 0px;
+  opacity: 0px;
+}
+.product-image {
+  width: 168px;
+  height: 224px;
+  top: 16px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.product-name {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  width: 100px;
+  gap: 25px;
+}
+
+.price-info {
+  font-family: "Simplon Norm";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+  color: #888792;
+  width: 100px;
+}
+
+.name-button-card {
+  display: flex;
+  gap: 15px;
+}
+
+.heart-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.red-heart {
+  background-color: #eb4c6b;
+}
+
+.full-screen-filter-card {
+  display: none;
+}
+.mobile-filter-card {
+  border: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.filter-button {
+  width: 50%;
+  border-right: 1px solid #e5e5e5;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  height: 30px;
+  background-color: transparent;
+}
+
+.product-container {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .mobile-filter-card {
+    display: none;
+  }
+  /* .full-screen-filter-card {
+    display: block;
+  } */
+  .custom-card {
+    display: none;
+  }
+  .full-screen-filter-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hidden-card {
+    display: none;
+  }
+  .visible-card {
+    display: block;
+  }
+  /* .product-list {
+    display: flex;
+  } */
+}

@@ -1,0 +1,22 @@
+.arrow-up {
+  transform: rotate(180deg);
+}
+
+.filter-category-options {
+  width: 300px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.material-card {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.category-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customizble-container {
+  width: 300px;
+}
