@@ -1,8 +1,10 @@
+"use client";
 import React, { useState } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 import "./page.css";
-const CustomizableBar = (visible) => {
+
+const CustomizableBar = () => {
   const [isIdealForOpen, setIsIdealForOpen] = useState(false);
   const [isFabricOpen, setIsFabricOpen] = useState(false);
   const [isWorkOpen, setIsWorkOpen] = useState(false);

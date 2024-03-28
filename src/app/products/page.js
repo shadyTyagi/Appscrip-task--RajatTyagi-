@@ -53,7 +53,7 @@ const Product = () => {
 
   console.log(products);
   const countProducts = products.length;
-  const customCardClassName = isVisible ? "visible-card" : "card-hidden";
+
   return (
     <>
       <Navbar />
