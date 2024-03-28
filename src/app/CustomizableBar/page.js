@@ -35,8 +35,8 @@ const CustomizableBar = (visible) => {
         <label htmlFor="customizble">CUSTOMIZBLE</label>
       </div>
       <div>
-        <div className="filter-category-options">
-          <div onClick={onClickButton} className="category-button">
+        <div onClick={onClickButton} className="filter-category-options">
+          <div className="category-button">
             IDEAL FOR{" "}
             {isIdealForOpen ? (
               <MdOutlineKeyboardArrowUp />
@@ -61,8 +61,8 @@ const CustomizableBar = (visible) => {
           )}
         </div>
       </div>
-      <div className="filter-category-options">
-        <div className="category-button" onClick={onClickFabricButton}>
+      <div onClick={onClickFabricButton} className="filter-category-options">
+        <div className="category-button">
           Fabric{" "}
           {isFabricOpen ? (
             <MdOutlineKeyboardArrowUp />
@@ -86,8 +86,8 @@ const CustomizableBar = (visible) => {
           ""
         )}
       </div>
-      <div className="filter-category-options">
-        <div className="category-button" onClick={onClickWorkButton}>
+      <div onClick={onClickWorkButton} className="filter-category-options">
+        <div className="category-button">
           WORK{" "}
           {isWorkOpen ? <MdOutlineKeyboardArrowUp /> : <MdKeyboardArrowDown />}
         </div>
@@ -107,8 +107,8 @@ const CustomizableBar = (visible) => {
           ""
         )}
       </div>
-      <div className="filter-category-options">
-        <div className="category-button" onClick={onClickOccasionButton}>
+      <div onClick={onClickOccasionButton} className="filter-category-options">
+        <div className="category-button">
           OCCASION{" "}
           {isOccasionOpen ? (
             <MdOutlineKeyboardArrowUp />
@@ -132,8 +132,8 @@ const CustomizableBar = (visible) => {
           ""
         )}
       </div>
-      <div className="filter-category-options">
-        <div className="category-button" onClick={onClickSegmentButton}>
+      <div onClick={onClickSegmentButton} className="filter-category-options">
+        <div className="category-button">
           SEGMENT{" "}
           {isSegmentOpen ? (
             <MdOutlineKeyboardArrowUp />
@@ -157,8 +157,11 @@ const CustomizableBar = (visible) => {
           ""
         )}
       </div>
-      <div className="filter-category-options material-card">
-        <div className="category-button" onClick={onClickRawMaterialButton}>
+      <div
+        onClick={onClickRawMaterialButton}
+        className="filter-category-options material-card"
+      >
+        <div className="category-button">
           RAW MATERIAL{" "}
           {isRawMaterialOpen ? (
             <MdOutlineKeyboardArrowUp />

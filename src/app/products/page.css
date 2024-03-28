@@ -1,7 +1,40 @@
+.description-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-main-heading {
+  font-family: "Simplon Norm";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 10px;
+  padding-right: 15px;
+  color: #252020;
+}
+
+.app-main-description {
+  font-family: "Simplon Norm";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  color: #252020;
+}
+
+.product-list-container {
+  margin-left: 50px;
+}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: center;
+  /* align-items: ; */
   gap: 30px;
 }
 
@@ -52,7 +85,7 @@
 }
 
 .red-heart {
-  background-color: #eb4c6b;
+  color: #eb4c6b;
 }
 
 .full-screen-filter-card {
@@ -74,8 +107,20 @@
   background-color: transparent;
 }
 
+.mobile-recomended-dropbox {
+  width: 50%;
+  border-right: 1px solid #e5e5e5;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  height: 30px;
+  background-color: transparent;
+  text-align: center;
+}
+
 .product-container {
   display: flex;
+  margin-top: 25px;
 }
 @media screen and (min-width: 768px) {
   .mobile-filter-card {
@@ -98,7 +143,81 @@
   .visible-card {
     display: block;
   }
-  /* .product-list {
+  .product-list {
     display: flex;
-  } */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 25px;
+  }
+  .main-container {
+    padding: 50px;
+  }
+  .count-filter-btn-card {
+    display: flex;
+    gap: 5px;
+  }
+  .product-count {
+    font-family: "Simplon Norm";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #252020;
+  }
+  .hide-button {
+    background-color: transparent;
+    color: #888792;
+    font-family: "Adobe Caslon Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: right;
+    width: 114px;
+    height: 40px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 18px;
+    border: none;
+  }
+
+  .dropbox-button {
+    background-color: transparent;
+    width: 148px;
+    height: 40px;
+    border: none;
+    color: #252020;
+  }
+
+  .dropbox-card {
+    margin-right: 35px;
+  }
+
+  .filter-dropbox {
+    border: none;
+    list-style-type: none;
+    /* overflow: hidden; */
+    box-shadow: 0px 0px 7px 1px #a3aaaf33;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0px;
+    gap: 5px;
+    width: 235px;
+    position: absolute;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+  .recomended {
+    color: #252020;
+  }
+  .dropbox-item {
+    font-family: "Simplon Norm";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 15px;
+    box-sizing: border-box;
+  }
 }

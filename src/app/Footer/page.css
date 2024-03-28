@@ -1,0 +1,193 @@
+.bg-container {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.footer-head {
+  color: #ffffff;
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+.fooer-description {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.input {
+  width: Fixed (226px) px;
+  height: Fixed (47px) px;
+  padding: 14px 24px 14px 24px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.button {
+  width: 109px;
+  height: 48px;
+  left: 234px;
+  gap: 0px;
+  border-radius: 5px;
+  border: 1.14px solid #ffffff;
+  opacity: 0.3px;
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  background-color: #000000;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.call {
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.phn-number {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.country-card {
+  display: flex;
+  align-items: center;
+}
+
+.currency-heading {
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.country-name {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  color: #ffffff;
+}
+.country-flag-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.payment-method-img {
+  width: 51px;
+  height: 30px;
+  gap: 0px;
+  border-radius: 4.55px;
+  opacity: 0px;
+}
+
+.more-details-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-details-head {
+  font-family: "Simplon Norm";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.payment-head {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about-copyright {
+  font-family: "Simplon Norm";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .fullscreen-footer-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-footer-container {
+    display: none;
+  }
+  .footer-top-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .transaction-detail {
+    font-family: "Simplon Norm";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .more-details-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .more-details-head {
+    font-family: "Simplon Norm";
+    font-size: 24.71px;
+    font-weight: 700;
+    line-height: 29.66px;
+    text-align: left;
+    flex: 1;
+    margin: 5px;
+  }
+  .detail-item {
+    font-family: "Simplon Norm";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #ffffff;
+    flex: 1;
+    margin: 5px;
+  }
+  .follow-logo-card {
+    flex: 3;
+    margin: 5px;
+  }
+  .footer-bottom-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .copyright-card {
+    margin-top: 25px;
+  }
+}

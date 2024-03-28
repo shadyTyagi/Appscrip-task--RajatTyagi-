@@ -6,7 +6,11 @@
   display: flex;
   justify-content: space-between;
 }
-
+@media screen and (max-width: 767px) {
+  .fullscreen-navbar {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .navbar-mobile {
     display: none;
@@ -14,5 +18,10 @@
   .fullscreen-navbar {
     display: flex;
     justify-content: space-between;
+  }
+  .language-dropbox {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
   }
 }

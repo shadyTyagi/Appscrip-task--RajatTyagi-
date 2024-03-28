@@ -10,25 +10,41 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-mobile">
-        <div>
-          <GiHamburgerMenu />
-          <TbBrandNextjs />
+        <div style={{ marginTop: "15px" }}>
+          <GiHamburgerMenu size={30} />
+          <TbBrandNextjs size={30} style={{ marginLeft: "15px" }} />
         </div>
         <h1>LOGO</h1>
-        <div>
-          <CiSearch />
-          <FaRegHeart />
-          <HiOutlineShoppingBag />
+        <div style={{ marginTop: "15px" }}>
+          <CiSearch size={30} style={{ marginLeft: "15px" }} />
+          <FaRegHeart size={30} style={{ marginLeft: "15px" }} />
+          <HiOutlineShoppingBag size={30} style={{ marginLeft: "15px" }} />
         </div>
       </div>
       <div className="fullscreen-navbar">
-        <TbBrandNextjs />
+        <TbBrandNextjs size={34} style={{ marginTop: "20px" }} />
         <h1>LOGO</h1>
         <div>
-          <CiSearch />
-          <FaRegHeart />
-          <HiOutlineShoppingBag />
-          <CgProfile />
+          <CiSearch size={24} style={{ marginTop: "20px" }} />
+          <FaRegHeart
+            size={24}
+            style={{ marginTop: "20px", marginLeft: "15px" }}
+          />
+          <HiOutlineShoppingBag
+            size={24}
+            style={{ marginTop: "20px", marginLeft: "15px" }}
+          />
+          <CgProfile
+            size={24}
+            style={{ marginTop: "20px", marginLeft: "15px" }}
+          />
+          <select
+            style={{ marginLeft: "15px", marginTop: "10px" }}
+            className="language-dropbox"
+          >
+            <option>ENG</option>
+            <option>HIN</option>
+          </select>
         </div>
       </div>
     </nav>
