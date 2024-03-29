@@ -12,9 +12,13 @@ const Navbar = () => {
       <div className="navbar-mobile">
         <div style={{ marginTop: "15px" }}>
           <GiHamburgerMenu size={30} />
-          <TbBrandNextjs size={30} style={{ marginLeft: "15px" }} />
+          <img
+            className="website-logo"
+            src="https://res.cloudinary.com/dzaz9bsnw/image/upload/v1711714694/Logo_jnad6k.png"
+            alt="website-logo"
+          />
         </div>
-        <h1>LOGO</h1>
+        <h1 className="logo-heading">LOGO</h1>
         <div style={{ marginTop: "15px" }}>
           <CiSearch size={30} style={{ marginLeft: "15px" }} />
           <FaRegHeart size={30} style={{ marginLeft: "15px" }} />
@@ -22,8 +26,12 @@ const Navbar = () => {
         </div>
       </div>
       <div className="fullscreen-navbar">
-        <TbBrandNextjs size={34} style={{ marginTop: "20px" }} />
-        <h1>LOGO</h1>
+        <img
+          className="website-logo"
+          src="https://res.cloudinary.com/dzaz9bsnw/image/upload/v1711714694/Logo_jnad6k.png"
+          alt="website-logo"
+        />
+        <h1 className="logo-heading">LOGO</h1>
         <div>
           <CiSearch size={24} style={{ marginTop: "20px" }} />
           <FaRegHeart
@@ -46,6 +54,13 @@ const Navbar = () => {
             <option>HIN</option>
           </select>
         </div>
+      </div>
+      <div className="navbar-menu-card">
+        <h2 className="option">SHOP</h2>
+        <h2 className="option">SKILLS</h2>
+        <h2 className="option">STORIES</h2>
+        <h2 className="option">ABOUT</h2>
+        <h2 className="option">CONTACT US</h2>
       </div>
     </nav>
   );

@@ -6,8 +6,28 @@
   display: flex;
   justify-content: space-between;
 }
+
+.logo-heading {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24.2px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.website-logo {
+  width: 19.89px;
+  height: 19.91px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
 @media screen and (max-width: 767px) {
   .fullscreen-navbar {
+    display: none;
+  }
+  .navbar-menu-card {
     display: none;
   }
 }
@@ -23,5 +43,38 @@
     border: none;
     background-color: transparent;
     font-weight: bold;
+  }
+  .navbar-menu-card {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .option {
+    font-family: "Simplon Norm";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #252020;
+  }
+  .logo-heading {
+    margin-left: 90px;
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000;
+  }
+  .website-logo {
+    width: 35.61px;
+    height: 35.66px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 15px;
+    margin-left: 15px;
   }
 }
